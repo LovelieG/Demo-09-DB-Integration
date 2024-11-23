@@ -17,7 +17,6 @@ app.listen(process.env.PORT || PORT, () => {
 // let taskId = tasks.length;
 
 // http://localhost:4000/tasks
-// http://localhost:4000/tasks
 app.get('/tasks', async (req, res) => {
     if (req.query) {
     if (req.query.id) {
